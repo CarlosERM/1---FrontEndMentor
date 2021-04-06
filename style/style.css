@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/*Estilização geral*/
+    body {
+        font-size:15px;
+        background:hsl(0, 0%, 95%);
+    }
+    img {
+        padding-bottom:20px;
+    }
+    h1 {
+        font-family: 'Big Shoulders Display', cursive;
+        text-transform:uppercase;
+        color:hsl(0, 0%, 95%);
+    }
+    p {
+        font-family: 'Lexend Deca', sans-serif;
+        color: hsla(0, 0%, 100%, 0.75);
+        line-height:25px;
+        margin-bottom:70px;
+    }
+    button {
+        background-color:hsl(0, 0%, 95%);
+        padding:15px 35px;
+        border-radius:50px;
+        border:none;
+        font-family: 'Lexend Deca', sans-serif;
+        cursor:pointer;
+    }
+/*Corpo principal das três colunas*/
+    #threecolumn {
+        display:flex;
+        width:850px;
+        height:477px;
+        margin: 58px auto;
+        border-radius:10px;
+        box-sizing:border-box;
+    }
+/*Estilização de cada seção*/
+    #sedans {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color:#E28525;
+    }
+    #suvs  {
+        background-color: #016972;
+    }
+    #luxury  {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: #00403F;
+    }
+/*Estilizando cada botão em particular.*/
+    #sedans button {
+        color:#E28525;
+    }
+    #suvs button {
+        color:#016972;
+    }
+    #luxury button {
+        color:#00403F;
+    }
+    #sedans button:hover {
+
+        border: 2px solid hsl(0, 0%, 95%);
+        color:hsl(0, 0%, 95%);
+        background-color:#E28525;
+    }
+    #suvs button:hover {
+        border: 2px solid hsl(0, 0%, 95%);
+        color:hsl(0, 0%, 95%);
+        background-color:#016972;
+    }
+    #luxury button:hover {
+        border: 2px solid hsl(0, 0%, 95%);
+        color:hsl(0, 0%, 95%);
+        background-color:#00403F;
+    }
+/*Mexendo no conteudo interno*/
+    .insideArticle {
+        box-sizing:border-box;
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+        justify-content:center;
+        padding:35px;
+    }
