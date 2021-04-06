@@ -61,7 +61,6 @@
         color:#00403F;
     }
     #sedans button:hover {
-
         border: 2px solid hsl(0, 0%, 95%);
         color:hsl(0, 0%, 95%);
         background-color:#E28525;
