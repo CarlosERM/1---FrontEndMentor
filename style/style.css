@@ -1,17 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 /*Estilização geral*/
+    html {
+        height:100%;
+    }
     body {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        height:100%;
         font-size:15px;
         background:hsl(0, 0%, 95%);
     }
     img {
         padding-bottom:20px;
     }
-    h1 {
+    h2 {
         font-family: 'Big Shoulders Display', cursive;
         text-transform:uppercase;
         color:hsl(0, 0%, 95%);
+        font-size:2em;
+        margin: 10px 0;
     }
     p {
         font-family: 'Lexend Deca', sans-serif;
@@ -32,7 +41,7 @@
         display:flex;
         width:850px;
         height:477px;
-        margin: 58px auto;
+        margin: 0 auto;
         border-radius:10px;
         box-sizing:border-box;
     }
@@ -85,10 +94,11 @@
         padding:35px;
     }
 /*PRIMEIRO MEDIA QUERIE DA MINHA VIDA*/
-@media (max-width:375px) { /*NO MÁXIMO ATÉ 375, DEPOIS DISSO NÃO É MAIS.*/
+
+@media (max-width: 575.98px) { 
     #threecolumn {
         flex-direction:column;
-        width: 320px;
+        width: 350px;
     }
     #sedans {
         border-top-right-radius: 10px ;
@@ -99,5 +109,31 @@
         border-bottom-left-radius:10px;
         
     }
+ }
 
-}
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+        #threecolumn {
+            flex-direction:column;
+            width: 700px;
+        }
+        #sedans {
+            border-top-right-radius: 10px ;
+            border-bottom-left-radius:0px;
+        }
+        #luxury {
+            border-top-right-radius:0px;
+            border-bottom-left-radius:10px;
+            
+        }
+      
+    }
+
+
+
+
+
+    /*320px — 480px: Mobile devices
+    481px — 768px: iPads, Tablets
+    769px — 1024px: Small screens, laptops
+    1025px — 1200px: Desktops, large screens
+    1201px and more —  Extra large screens, TV*/
