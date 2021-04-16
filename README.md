@@ -28,7 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the 3-column preview card component coding challenge](design/Frontend Mentor 3-column preview card component.jpg)
+![Frontend Mentor 3-column preview card component](https://user-images.githubusercontent.com/74724103/115022860-5bf40800-9e94-11eb-8e36-2ea0ba268979.png)
+
 
 
 
