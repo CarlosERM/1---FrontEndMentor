@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/CarlosERM/1---FrontEndMentor.git](https://github.com/CarlosERM/1-FrontEndMentor.git)
-- Live Site URL: [https://carloserm.github.io/1---FrontEndMentor/](https://carloserm.github.io/1-FrontEndMentor/)
+- Solution URL: [https://github.com/CarlosERM/1-FrontEndMentor.git](https://github.com/CarlosERM/1-FrontEndMentor.git)
+- Live Site URL: [https://carloserm.github.io/1-FrontEndMentor/](https://carloserm.github.io/1-FrontEndMentor/)
 
 
 ### Built with
