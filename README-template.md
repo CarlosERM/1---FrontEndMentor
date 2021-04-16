@@ -18,7 +18,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 
 ## Overview
-
+The first time i used css alone in a layout. 
 ### The challenge
 
 Users should be able to:
@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Design preview for the 3-column preview card component coding challenge](./design/Frontend Mentor 3-column preview card component.jpg)
 
 
 
